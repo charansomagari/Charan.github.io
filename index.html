@@ -2,13 +2,15 @@
 <html>
 
 <head>
-
+    <title>
+            Charan Kumar Reddy Portfolio
+    </title>
 
     <style>
 
         .title_container
         {
-            width: 1341px;
+            width: 1332px;
             height: 150px;
             background-color:  #008080;
             display: inline-flex;
@@ -19,8 +21,10 @@
 
         .title_container:hover
         {
-            box-shadow: inset 1341px 0 0 0 #FF7F50 ;
+            box-shadow: inset 1332px 0 0 0 #FF7F50
+ ;
         }
+
         .name
         {
             font-size: 50px;
@@ -41,45 +45,119 @@
             
         }
 
-        .experience_container
+        .exp_skills_container
+
         {
-            width: 1341px;
-            height: 300px;
-            background-color: 	#9FE2BF ;
             display: inline-flex;
             flex-direction: column;
+            width: 1332px;
+            background-color: #008080;
+            height: 250px;
+            margin-top: 10px;
+            color: white;
+            transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+            
+        }
+        
+        .exp_skills_container:hover
+        {
+            box-shadow: inset 1332px 0 0 0 #FF7F50;
+            color : white;
+        }
+
+        .about_me
+        {
+            font-size: 36px;
+
+            font-style: normal;
+            margin-top: 20px;
+            margin-left: 63px;  
+            font-weight: bold;
 
         }
+
+
+
         .ec_first
         {
-            font-size: 23px;
+            font-size: 25px;
             font-family: "Times New Roman", Times, serif;
             font-style: italic;
             margin-left: 15px;
-            margin-top: 20px;
+            margin-top: 12px;
             line-height: 1.6;
+        }
+
+        .skills
+        {
+            
+            display: inline-flex;
+            flex-direction: column;
+            background-color: #008080;
+            width: 1332px;
+            height: 150px;
+            margin-top: 10px;
+            transition: box-shadow .3s ease-in-out;
+        }
+        .skills:hover
+        {
+            box-shadow: inset 1332px 0 0 0 #FF7F50;
+        }
+
+        .skill
+        {
+            font-size: 30px;
+            color: white;
+            font-style: normal;
+            margin-top: 10px;
+            margin-left: 63px;  
+            font-weight: bold;
             
         }
 
-        .ec_second
+
+
+        .box_con ul li
         {
-            font-size: 23px;
-            font-family: "Times New Roman", Times, serif;
-            font-style:normal;
-            margin-left: 15px;
-            margin-top: 15px;
-            line-height: 1.6;
+            color: white;
+            margin-left: 20px;
+            margin-top: 5px;
+            list-style: none;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: bold;
+            border: 3px solid white;
+            padding: 5px;
+            text-align: center;
+            display: inline-flex;
+            flex-direction: row;
         }
+        
+
+
+
+
+
 
         .portfolio_links
         {
-            width: 1341px;
+            width: 1332px;
             height: 50px;
             display: inline-flex;
             flex-direction: row;
-            background-color: #85C1E9 ;
-            
+            background-color: #008080 ;
+            transition: box-shadow .3s ease-in-out;
+            margin-top: 10px;
+            color: white;
+            font-weight: bold;
         }
+
+        .portfolio_links:hover
+
+        {
+            box-shadow: inset 1332px 0 0 0 #FF7F50;
+        }
+
         .lkd
         {
             margin-top: 12px;
@@ -90,19 +168,19 @@
         .lkd a
         {
             text-decoration: none;
-            color: black;
+            color: white;
         }
         .tbl
         {
             margin-top: 12px;
             font-size: 25px;
-            margin-left: 450px;
+            margin-left: 400px;
             
         }
         .tbl a
         {
             text-decoration: none;
-            color: black;
+            color: white;
         }
         .kgl
         {
@@ -114,14 +192,16 @@
         .kgl a
         {
             text-decoration: none;
-            color: black;
+            color: white;
         }
+
     </style>
 
 </head>
 
 
 <body>
+
 
     <div class="title_container">
         <div class="name">
@@ -133,26 +213,61 @@
         </div>
     </div>
 
-<br/>
-<br/>
 
-    <div class="experience_container">
+
+<div class = "exp_skills_container">
+
+   
+
+        <div class ="about_me">
+            <u>About Me </u> 
+        </div>
 
         <div class="ec_first">
-            I am a data analytics professional having experience of more than 4.5 years.
-            in analysing and generating meaningfull insights from data, worked on various data analytical 
-            processes includes <strong> Data collection, Data cleaning and validation, Data Visualitation,
-            generating Insights and preparing presentaions.</strong>
+            
+            
+            I am a data analytics professional having experience of more than 4.6 years
+            working in various data analytical processes which includes 
+            <strong> collection and cleaning data from various sources, Visualitation, generating insights 
+                and preparing presentaions.
+            </strong>
         </div>
 
-        <div class="ec_second">
-            Highly Expertise in various Data analytics tools, includes <strong> Python, SQL, Tableau, Excel and VBA(Macros).</strong>
-        </div>
+                    
+        
+</div>
+
+
+
+
+<div class = "skills">
+
+    <div class="skill">
+        <u>Skills</u>
     </div>
 
+    <div class = "box_con">
+        <ul>
+            
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Tableau</li>
+                <li>Excel</li>
+                <li>VBA Macros</li>
+                <li>Power BI</li> 
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Data Analytics</li>
+                <li>Business analytics</li>
+                <li>Predictive analytics</li>
+                <li>Financial Analytics</li>
+                <li>Regex</li>
+                <li>NLP</li>
+        </ul>
+    </div>     
 
-<br/>
-<br/>
+</div>
+
 
     <div class ="portfolio_links">
 
@@ -177,6 +292,9 @@
     
     
     </div>
+
+
+
 
 
 </body>
